@@ -1,0 +1,10 @@
+imageType:
+  Original: {}
+featureClass:
+  firstorder: {}
+  shape: {}
+  glcm: {}
+  glrlm: {}
+  glszm: {}
+  gldm: {}
+  ngtdm: {}
