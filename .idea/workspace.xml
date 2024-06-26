@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee4bbc1-d899-4123-96f4-125597e307d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/run_pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/feature_extraction/deep_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/feature_extraction/params.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/feature_extraction/radiomics_features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/feature_selection/correlation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/train_test_split.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/preprocessing/data_cleaning.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/preprocessing/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/visualization/auc_plot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
