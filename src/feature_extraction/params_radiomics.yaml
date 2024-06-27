@@ -1,0 +1,141 @@
+setting:
+  binWidth: 25
+  resampledPixelSpacing: null
+  interpolator: 'sitkBSpline'
+  enableCExtensions: true
+
+imageType:
+  Original: {}
+  LoG:
+    sigma: [1.0, 2.0, 3.0]
+  Wavelet: {}
+  Square: {}
+  SquareRoot: {}
+  Logarithm: {}
+  Exponential: {}
+  Gradient: {}
+  LBP2D: {}
+  LBP3D: {}
+  LocalBinaryPattern:
+    lbp2D: {}
+    lbp3D: {}
+
+featureClass:
+  firstorder: {}
+  shape: {}
+  glcm: {}
+  glrlm: {}
+  glszm: {}
+  gldm: {}
+  ngtdm: {}
+
+firstorder:
+  energy: {}
+  totalEnergy: {}
+  entropy: {}
+  minimum: {}
+  10Percentile: {}
+  90Percentile: {}
+  maximum: {}
+  mean: {}
+  median: {}
+  interquartileRange: {}
+  range: {}
+  meanAbsoluteDeviation: {}
+  robustMeanAbsoluteDeviation: {}
+  rootMeanSquared: {}
+  standardDeviation: {}
+  skewness: {}
+  kurtosis: {}
+  variance: {}
+  uniformity: {}
+  autoCorrelation: {}
+  jointAverage: {}
+  jointEnergy: {}
+  jointEntropy: {}
+  differenceAverage: {}
+  differenceEntropy: {}
+  differenceVariance: {}
+  jointMaximum: {}
+  jointVariance: {}
+  maxProbability: {}
+  sumAverage: {}
+  sumEntropy: {}
+  sumSquares: {}
+  sumVariance: {}
+
+glcm:
+  angularSecondMoment: {}
+  contrast: {}
+  correlation: {}
+  sumOfSquares: {}
+  inverseDifferenceMoment: {}
+  jointEntropy: {}
+  clusterShade: {}
+  clusterProminence: {}
+  maxProbability: {}
+  dissimilarity: {}
+  homogeneity1: {}
+  homogeneity2: {}
+  jointAverage: {}
+  differenceAverage: {}
+  differenceEntropy: {}
+  differenceVariance: {}
+  jointMaximum: {}
+  inverseVariance: {}
+  clusterTendency: {}
+
+glrlm:
+  shortRunEmphasis: {}
+  longRunEmphasis: {}
+  grayLevelNonUniformity: {}
+  runLengthNonUniformity: {}
+  lowGrayLevelRunEmphasis: {}
+  highGrayLevelRunEmphasis: {}
+  shortRunLowGrayLevelEmphasis: {}
+  shortRunHighGrayLevelEmphasis: {}
+  longRunLowGrayLevelEmphasis: {}
+  longRunHighGrayLevelEmphasis: {}
+  runPercentage: {}
+  grayLevelVariance: {}
+  runVariance: {}
+  runEntropy: {}
+
+glszm:
+  smallAreaEmphasis: {}
+  largeAreaEmphasis: {}
+  grayLevelNonUniformity: {}
+  sizeZoneNonUniformity: {}
+  zonePercentage: {}
+  grayLevelVariance: {}
+  zoneVariance: {}
+  zoneEntropy: {}
+  lowGrayLevelZoneEmphasis: {}
+  highGrayLevelZoneEmphasis: {}
+  smallAreaLowGrayLevelEmphasis: {}
+  smallAreaHighGrayLevelEmphasis: {}
+  largeAreaLowGrayLevelEmphasis: {}
+  largeAreaHighGrayLevelEmphasis: {}
+
+gldm:
+  smallDependenceEmphasis: {}
+  largeDependenceEmphasis: {}
+  grayLevelNonUniformity: {}
+  dependenceNonUniformity: {}
+  lowGrayLevelEmphasis: {}
+  highGrayLevelEmphasis: {}
+  smallDependenceLowGrayLevelEmphasis: {}
+  smallDependenceHighGrayLevelEmphasis: {}
+  largeDependenceLowGrayLevelEmphasis: {}
+  largeDependenceHighGrayLevelEmphasis: {}
+  dependenceEntropy: {}
+  dependenceVariance: {}
+  dependenceCountEnergy: {}
+  dependenceCountEntropy: {}
+
+ngtdm:
+  coarseness: {}
+  contrast: {}
+  busyness: {}
+  complexity: {}
+  strength: {}
