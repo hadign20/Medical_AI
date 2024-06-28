@@ -1,0 +1,16 @@
+Clone the Template:
+	git clone https://github.com/yourusername/Medical_AI.git new-project-name
+	cd new-project-name
+
+
+Set Up a New Git Remote:
+	Remove the remote pointing to the template repository.
+		git remote remove origin
+
+	Add a new remote pointing to your new project repository.
+		git remote add origin https://github.com/yourusername/new-project-name.git
+
+	Commit and Push to the New Repository:
+		git add .
+		git commit -m "Initialize new project from template"
+		git push -u origin main
